@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="app">
-      <Clicker />
+      <NumberGame/>
     </div>
   );
 }

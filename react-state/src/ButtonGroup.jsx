@@ -1,15 +1,15 @@
 import React from "react";
 
 const ButtonGroup = () => {
-  const printColor = () => {
-    // code here //
+  const printColor = (color) => {
+    console.log(`You clicked: ${color.toUpperCase()}`)
   };
 
   return (
     <div>
-      <button onClick={printColor}>RED</button>
-      <button onClick={printColor}>YELLOW</button>
-      <button onClick={printColor}>GREEN</button>
+      <button onClick={() => printColor('Red')}>RED</button>
+      <button onClick={() => printColor('Yellow')}>YELLOW</button>
+      <button onClick={() => printColor('Green')}>GREEN</button>
     </div>
   )
 };

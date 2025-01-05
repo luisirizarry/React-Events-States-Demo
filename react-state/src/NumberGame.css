@@ -1,0 +1,14 @@
+.NumberGame {
+    border: 1px solid black;
+    width: 300px;
+    margin: auto;
+}
+
+.winner {
+    color: green;
+    
+}
+
+.loser {
+    color: red;
+}
