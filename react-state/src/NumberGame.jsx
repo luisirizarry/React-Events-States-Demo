@@ -19,6 +19,7 @@ const NumberGame = (props) => {
     setGuessCount(guessCount + 1);
   }
   const [guess, setGuess] = useState(genRandom());
+  
   const [target, setTarget] = useState(genRandom());
   const [guessCount, setGuessCount] = useState(0);
   const isWinner = target === guess;
